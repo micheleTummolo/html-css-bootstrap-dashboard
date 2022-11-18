@@ -5,6 +5,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Utilities */
+    .cursor-pointer {
+        cursor: pointer;
+    }
+/* Utilities */
+
+/* Headings */
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: .5rem;
+    }
+/* Headings */
+
 /* Navbar */
 
     /* Search-bar */
@@ -21,7 +39,7 @@
         }
 
         .logo-sm {
-            width: 40px;
+            width: 35px;
         }
 
         .search-bar {
@@ -61,3 +79,31 @@
         }
     /* Search-bar */
 /* Navbar */
+
+/* Main container */
+        .main-cont {
+            margin-top: 51px;
+        }
+/* Main container */
+    
+/* Sidebar */
+    .sidebar {
+        background-color: #051E34;
+        width: 60px;
+        height: calc(100vh - 51px);
+        padding: 30px 20px;
+    }
+
+    .sidebar i {
+        margin-bottom: .5rem;
+    }
+/* Sidebar */
+
+/* Content */
+    .content {
+        background-color: #F8F9FA;
+        width: calc(100vw - 60px);
+        height: calc(100vh - 51px);
+    }
+/* Content */
+
