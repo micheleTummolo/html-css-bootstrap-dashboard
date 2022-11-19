@@ -123,13 +123,13 @@
     /* Content header */
 
     /* Content-main */
-        .content-main {
-            height: calc(100vh - 151px);
+        .content {
+            height: calc(100vh - 51px);
         }
 
         /* Card "Prossime classi" */
             .table-img-cont {
-                width: 200px;
+                max-width: 200px;
             }
 
             .table-img {
