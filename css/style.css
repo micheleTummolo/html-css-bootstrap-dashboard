@@ -121,5 +121,22 @@
             padding: .6rem .4rem;
         }
     /* Content header */
+
+    /* Content-main */
+        .content-main {
+            height: calc(100vh - 151px);
+        }
+
+        /* Card "Prossime classi" */
+            .table-img-cont {
+                width: 200px;
+            }
+
+            .table-img {
+                width: 30px;
+                height: 30px;
+            }
+        /* Card "Prossime classi" */
+    /* Content-main */
 /* Content */
 
