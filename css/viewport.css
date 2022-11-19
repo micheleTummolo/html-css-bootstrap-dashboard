@@ -1,9 +1,15 @@
+@media screen and (min-width: 576px) {
+    .justify-content {
+        justify-content: end;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .sidebar {
         width: 130px;
     }
 
     .content {
-        width: calc(100vw - 160px);
+        width: calc(100vw - 130px);
     }
 }

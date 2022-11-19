@@ -19,7 +19,7 @@
         font-size: 1rem;
     }
     h3 {
-        font-size: .5rem;
+        font-size: .7rem;
     }
 /* Headings */
 
@@ -43,7 +43,7 @@
         }
 
         .search-bar {
-            width: 1000px;
+            width: 1100px;
             background-color: #E5E5E5;
             border-radius: 3px;
             padding: .5rem;
@@ -105,5 +105,21 @@
         width: calc(100vw - 60px);
         height: calc(100vh - 51px);
     }
+
+    /* Content header */
+        .content-header {
+            background-color: #1B72E8;
+        }
+
+        .label {
+            background-color: #165BBA;
+            padding: .2rem .7rem;
+            border-radius: 1rem;
+        }
+
+        .label-plus {
+            padding: .6rem .4rem;
+        }
+    /* Content header */
 /* Content */
 
