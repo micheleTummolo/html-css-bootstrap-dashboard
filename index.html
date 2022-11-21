@@ -106,16 +106,68 @@
                             <div class="col-12 col-sm-3 col-md-3 col-lg-2 d-flex align-items-baseline order-sm-2 mb-1 justify-content">
                                 <p class="me-2">Nuovo studente</p>
                                 <div>
-                                    <button class="btn btn-primary border-white px-1 py-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                    <button class="btn btn-primary border-white px-1 py-0 off-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
                                 </div>
 
+                                <!-- Offcanvas "Nuovo studente" -->
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title text-black" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
-                                    <div class="offcanvas-body">
-                                        ...
+                                    <div class="offcanvas-body text-black">
+                                        <form class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="inputName4" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" aria-label="First name">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputLastname4" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" aria-label="Last name">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputEmail4" class="form-label">Email</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                                  </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                <input type="text" class="form-control" id="inputAddress">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputCity" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="inputState" class="form-label">Stato</label>
+                                                <select id="inputState" class="form-select">
+                                                    <option selected>Italia</option>
+                                                    <option>Cina</option>
+                                                    <option>Canada</option>
+                                                    <option>Australia</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label for="inputZip" class="form-label">Cap</label>
+                                                <input type="text" class="form-control" id="inputZip">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                <div class="mb-3">
+                                                    <input class="form-control" type="file" id="formFile">
+                                                  </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary">Salva</button>
+                                                <button type="button" class="btn btn-warning">Svuota</button>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

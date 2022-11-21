@@ -132,6 +132,11 @@
         .label-plus {
             padding: .6rem .4rem;
         }
+
+        .off-btn:hover {
+            background-color: white;
+            color: black;
+        }
     /* Content header */
 
     /* Content-main */
